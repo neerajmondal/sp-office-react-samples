@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "dev-react-io-poc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/devReactIoPoc/DevReactIoPocWebPart.js",
+          "manifest": "./src/webparts/devReactIoPoc/DevReactIoPocWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DevReactIoPocWebPartStrings": "lib/webparts/devReactIoPoc/loc/{locale}.js"
+  }
+}
